@@ -2,10 +2,10 @@
 
 
 /**
- * splitstring - splits a string and makes it an array of pointers to words
- * @str: the string to be split
+ * splitstring - splits a string and makes it an array of pointers to words or characters
+ * @str: the string to be splitted
  * @delim: the delimiter
- * Return: array of pointers to words
+ * Return: array of pointers to words or pointer to charcters
  */
 
 char **splitstring(char *str, const char *delim)
@@ -48,7 +48,7 @@ char **splitstring(char *str, const char *delim)
 }
 
 /**
- * execute - executes a command
+ * execute - executes a command through a pointer to pointer using the command line 
  * @argv: array of arguments
  */
 
@@ -74,7 +74,7 @@ void execute(char **argv)
 }
 
 /**
- * _realloc - Reallocates memory block
+ * _realloc - Reallocates a specific memory block
  * @ptr: previous pointer
  * @old_size: old size of previous pointer
  * @new_size: new size for our pointer
