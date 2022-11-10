@@ -2,9 +2,9 @@
 
 
 /**
- * _getenv - gets the value of the global variable
- * @name: name of the global variable
- * Return: string of value
+ * _getenv - gets the value of the provided global variable of a given set of values
+ * @name: name of the global variable we are working with
+ * Return: string of values
  */
 char *_getenv(const char *name)
 {
@@ -37,10 +37,10 @@ char *_getenv(const char *name)
 
 
 /**
- * add_node_end - adds a new node at the end of a list_t list
- * @head: pointer to pointer to our linked list
- * @str: pointer to string in previous first node
- * Return: address of the new element/node
+ * add_node_end - adds a new node at the end of the list_t lists
+ * @head: the pointer to the pointer to our linked list
+ * @str: the pointer to the string in the previously used node
+ * Return: the address of the new element/node
  */
 
 list_path *add_node_end(list_path **head, char *str)
@@ -81,7 +81,7 @@ list_path *add_node_end(list_path **head, char *str)
 
 
 /**
- * linkpath - creates a linked list for path directories
+ * linkpath - creates a linked list for all the given path directories
  * @path: string of path value
  * Return: pointer to the created linked list
  */
@@ -102,9 +102,9 @@ list_path *linkpath(char *path)
 }
 
 /**
- * _which - finds the pathname of a filename
- * @filename: name of file or command
- * @head: head of linked list of path directories
+ * _which - finds the pathname of the provided filename
+ * @filename: the name of file or the command
+ * @head: head of linked list of the given path directories
  * Return: pathname of filename or NULL if no match
  */
 char *_which(char *filename, list_path *head)
@@ -130,7 +130,7 @@ char *_which(char *filename, list_path *head)
 }
 
 /**
- * free_list - frees a list_t
+ * free_list - frees a pointer in list_t
  *@head: pointer to our linked list
  */
 void free_list(list_path *head)
