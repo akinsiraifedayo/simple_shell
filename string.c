@@ -1,8 +1,8 @@
 #include "shell.h"
 
 /**
- * _strdup - returns a pointer to a newly allocated space in memory, which
- * contains a copy of the string given as a parameter
+ * _strdup - returns the provided pointer to the newly allocated space in
+ * the memory, which contains a copy of the string given as a parameter
  * @str: pointer to a string
  * Return: pointer to a string
  */

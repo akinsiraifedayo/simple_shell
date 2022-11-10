@@ -2,7 +2,8 @@
 
 
 /**
- * splitstring - splits a string and makes it an array of pointers to words or characters
+ * splitstring - splits a string and makes it an array of pointers
+ * to words or characters
  * @str: the string to be splitted
  * @delim: the delimiter
  * Return: array of pointers to words or pointer to charcters
@@ -48,7 +49,8 @@ char **splitstring(char *str, const char *delim)
 }
 
 /**
- * execute - executes a command through a pointer to pointer using the command line 
+ * execute - executes a command through a pointer to pointer
+ * using the command line
  * @argv: array of arguments
  */
 
