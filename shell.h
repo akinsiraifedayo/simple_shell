@@ -26,9 +26,9 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);
 extern char **environ;
 
 /**
- * struct list_path - Linked list containing PATH directories
- * @dir: directory in path
- * @p: pointer to next node
+ * struct list_path - The Linked list containing all PATH directories
+ * @dir: directory in the path
+ * @p: pointer to the next node
  */
 typedef struct list_path
 {
@@ -43,9 +43,9 @@ list_path *linkpath(char *path);
 char *_which(char *filename, list_path *head);
 
 /**
- * struct mybuild - pointer to function with corresponding buildin command
- * @name: buildin command
- * @func: execute the buildin command
+ * struct mybuild - pointer to function with the corresponding buildin command
+ * @name: the buildin command
+ * @func: this executes the buildin command
  */
 typedef struct mybuild
 {
