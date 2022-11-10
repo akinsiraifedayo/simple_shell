@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * sig_handler - checks if Ctrl C is pressed
+ * sig_handler - checks if the command Ctrl C is pressed
  * @sig_num: int
  */
 void sig_handler(int sig_num)
@@ -14,7 +14,7 @@ void sig_handler(int sig_num)
 
 /**
 * _EOF - handles the End of File
-* @len: return value of getline function
+* @len: returns the value of a given getline function
 * @buff: buffer
  */
 void _EOF(int len, char *buff)
