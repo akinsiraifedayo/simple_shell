@@ -1,8 +1,8 @@
 #include "shell.h"
 
 /**
- * exitt - exits the shell with or without a return of status n
- * @arv: array of words of the entered line
+ * exitt - exits the shell program with or without a return of status n
+ * @arv: array of words of the line to be entered
  */
 void exitt(char **arv)
 {
@@ -23,7 +23,7 @@ void exitt(char **arv)
 }
 
 /**
- * _atoi - converts a string into an integer
+ * _atoi - converts a string of a given character into an integer
  *@s: pointer to a string
  *Return: the integer
  */
@@ -50,7 +50,7 @@ int _atoi(char *s)
 }
 
 /**
- * env - prints the current environment
+ * env - prints the current working environment
  * @arv: array of arguments
  */
 void env(char **arv __attribute__ ((unused)))
