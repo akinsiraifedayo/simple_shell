@@ -24,7 +24,7 @@ void _eputs(char *str)
  * @c: The character to print
  *
  * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * On error, -1 is returned, and error is printed.
  */
 int _eputchar(char c)
 {
@@ -47,7 +47,7 @@ int _eputchar(char c)
  * @fd: The filedescriptor to write to
  *
  * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * On error, -1 is returned, and errno is set accordingly.
  */
 int _putfd(char c, int fd)
 {
