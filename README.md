@@ -1,7 +1,28 @@
-Project Title: SIMPLE SHELL
+# Simple Shell
 
-Project Description:
-	This is a simple shell project that is intended to test our understanding of C by designing our own simple shell program that would have all the functionalities of the normal shell
-	The simple shell was totally written in C programming language
-	This project was done as a collaboration between OKOYE AMARACHUKWU BLESSING and IFEDAYO OLYMPICSON AKINSIRA-OLUMIDE
+A simple shell implementation built in C.
+
+## Table of Contents
+
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Built-in Commands](#built-in-commands)
+- [Authors](#authors)
+
+## Description
+
+This is a simple shell program written in C that can run on Unix-like operating systems. It is capable of executing commands and programs, and also supports some built-in commands.
+
+The program works by first reading the input from the user using the `getline()` function, and then tokenizing the input into separate arguments using `strtok()`. It then checks if the command is a built-in command or an external program. If it is a built-in command, it is executed by the shell itself. Otherwise, it is executed by creating a new process using `fork()` and executing the program using `execve()`.
+
+## Installation
+
+To install and run the program, follow these steps:
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/<username>/simple-shell.git
+```
 
