@@ -58,25 +58,26 @@ echo "Hello, world!"
 exit
 ```
 ## Built in commands
-alias - Create an alias for a command.
-cd - Change directory to a specified path.
-exit - Exit the current shell session.
-exit status - A numerical value returned by a command to indicate success or failure.
-$? - A special shell variable that holds the exit status of the last executed command.
-$$ - A special shell variable that holds the process ID of the current shell.
-getline - A function in C for reading input from a stream.
-ls - List the contents of a directory.
-mkdir - Create a new directory.
-PATH - A list of directories that the shell searches through when trying to find a command.
-rm - Remove a file or directory.
-setenv - Set an environment variable.
-unsetenv - Unset an environment variable.
-touch - Create a new empty file.
-&& - Execute the command on the right only if the command on the left completes successfully.
-|| - Execute the command on the right only if the command on the left fails.
-; - Execute the command on the left and then the command on the right.
+1. alias - Create an alias for a command.
+2. cd - Change directory to a specified path.
+3. exit - Exit the current shell session.
+4. exit status - A numerical value returned by a command to indicate success or failure.
+5. $? - A special shell variable that holds the exit status of the last executed command.
+6. $$ - A special shell variable that holds the process ID of the current shell.
+7. getline - A function in C for reading input from a stream.
+8. ls - List the contents of a directory.
+9. mkdir - Create a new directory.
+10. PATH - A list of directories that the shell searches through when trying to find a command.
+11. rm - Remove a file or directory.
+12. setenv - Set an environment variable.
+13. unsetenv - Unset an environment variable.
+14. touch - Create a new empty file.
+15. && - Execute the command on the right only if the command on the left completes successfully.
+16. || - Execute the command on the right only if the command on the left fails.
+17. ; - Execute the command on the left and then the command on the right.
 and many other basic linux commands not listed.
 
 ## Authors
-[Ifedayo AKinsira-Olumide]
-[Okore Amarachukwu]
+---------------------------
+1. Ifedayo AKinsira-Olumide
+2. Okore Amarachukwu
