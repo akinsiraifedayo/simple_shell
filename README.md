@@ -58,6 +58,7 @@ echo "Hello, world!"
 exit
 ```
 ## Built in commands
+```bash
 1. alias - Create an alias for a command.
 2. cd - Change directory to a specified path.
 3. exit - Exit the current shell session.
@@ -76,6 +77,7 @@ exit
 16. || - Execute the command on the right only if the command on the left fails.
 17. ; - Execute the command on the left and then the command on the right.
 and many other basic linux commands not listed.
+```
 
 ## Authors
 ---------------------------
